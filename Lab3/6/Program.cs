@@ -1,149 +1,172 @@
 ﻿using System;
-
-namespace _6
+using System.Collections;
+using System.Collections.Generic;
+namespace anton2._0
 {
     class Employee
     {
-        public string name; //
-        public double salary; //
-        public string position;//
-        public string department;//
-        public string email;
-        public int age;
-        public void show()
+        public string Name { get; set; }
+        public float Salary { get; set; }
+        public string Position { get; set; }
+        public string Department { get; set; }
+        public string Email { get; set; }
+        public int Age { get; set; }
+        public Employee() { }
+        public Employee(string Name, float Salary, string Position, string Department)
         {
-            Console.WriteLine($"{this.name} {this.salary.ToString("0.00")} {this.position} {this.department} {this.email} {this.age}");
+            this.Name = Name;
+            this.Salary = Salary;
+            this.Position = Position;
+            this.Department = Department;
+            this.Email = "n/a";
+            this.Age = -1;
+        }
+        public Employee(string Name, float Salary, string Position, string Department, string Email)
+        {
+            this.Name = Name;
+            this.Salary = Salary;
+            this.Position = Position;
+            this.Department = Department;
+            this.Email = Email;
+            this.Age = -1;
+        }
+        public Employee(string Name, float Salary, string Position, string Department, int Age)
+        {
+            this.Name = Name;
+            this.Salary = Salary;
+            this.Position = Position;
+            this.Department = Department;
+            this.Email = "n/a";
+            this.Age = Age;
+        }
+        public Employee(string Name, float Salary, string Position, string Department, string Email, int Age)
+        {
+            this.Name = Name;
+            this.Salary = Salary;
+            this.Position = Position;
+            this.Department = Department;
+            this.Email = Email;
+            this.Age = Age;
+        }
+        public void Display()
+        {
+            Console.WriteLine($"{Name} {Salary.ToString("0.00")} {Position} {Department} {Email} {Age}");//two decimal?
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите количество работников: ");
-            int n=Int32.Parse( Console.ReadLine());
-            Employee[] a = new Employee[n];
+            Console.WriteLine("Input number of employees:");
+            int n = Convert.ToInt32(Console.ReadLine());
+            List<Employee> a = new List<Employee>();
+            Console.WriteLine("Input employees: ");
             for (int i = 0; i < n; i++)
-                a[i] = new Employee();
-            for(int i=0;i<n;i++)
             {
-                
-                Console.Write($"Введите имя {i+1}-го работника: ");
-                s1:
-                string t = Console.ReadLine();
-                if (t == "")
-                { 
-                    Console.WriteLine("Ошибка! Поле обязательное!");
-                    goto s1;
-                }
-                else
-                    a[i].name = t;
-
-                Console.Write($"Введите зарплату {i + 1}-го работника: ");
-                s2:
-                t = Console.ReadLine();
-                if (t == "")
+                string s1 = Console.ReadLine();
+                string[] s2 = s1.Split(" ");
+                if (s2.Length == 6)
                 {
-                    Console.WriteLine("Ошибка! Поле обязательное!");
-                    goto s2;
+                    Employee t = new Employee(s2[0], float.Parse(s2[1]), s2[2], s2[3], s2[4], Int32.Parse(s2[5]));
+                    a.Add(t);
                 }
-                else
-                    a[i].salary = Math.Round(Convert.ToDouble(t),2);   //Math.Round((Double)d, 2);
-                Console.Write($"Введите должность {i + 1}-го работника: ");
-                s3:
-                t = Console.ReadLine();
-                if (t == "")
+                if (s2.Length == 5)
                 {
-                    Console.WriteLine("Ошибка! Поле обязательное!");
-                    goto s3;
-                }
-                else
-                    a[i].position = t;
-                Console.Write($"Введите департамент {i + 1}-го работника: ");
-            s4:
-                t = Console.ReadLine();
-                if (t == "")
-                {
-                    Console.WriteLine("Ошибка! Поле обязательное!");
-                    goto s4;
-                }
-                else
-                    a[i].department = t;
-                Console.Write($"Введите эл.почту {i + 1}-го работника: ");
-                t= Console.ReadLine(); ;
-                if (t == "")
-                    a[i].email = "n/a";
-                else
-                    a[i].email = t;
-                Console.Write($"Введите возраст {i + 1}-го работника: ");
-                t = Console.ReadLine();
-                if (t == "")
-                    a[i].age = -1;
-                else
-                    a[i].age = Convert.ToInt32(t);
-            }
-            //for(int i=0;i<n;i++)    //
-            //{                       //
-                //a[i].show();        //
-            //}                       //
-
-            string[] deps = new string[n];
-            int k = 0;
-            for(int i=0;i<n;i++)
-            {
-                bool good = true;
-                for (int j = 0; j < k; j++)
-                    if (a[i].department == deps[j])
-                        good = false;
-                if(good)
-                { 
-                deps[k] = a[i].department;
-                k++;
-                }
-            }
-            double[] deps_sum = new double[k];
-            for (int i = 0; i < k; i++)
-                deps_sum[i] = 0;
-
-
-            for(int j=0;j<k;j++)
-                for(int i=0;i<n;i++)
-                {
-                    if (deps[j] == a[i].department)
-                        deps_sum[j] += a[i].salary;
-                }
-            //for (int i = 0; i < k; i++)
-                //Console.WriteLine($"{deps[i]} {deps_sum[i]}");
-            string best_dep = deps[0];
-            double best_salary = deps_sum[0];
-            for(int i=0;i<k;i++)
-            {
-                if(deps_sum[i] > best_salary)
-                {
-                    best_salary = deps_sum[i];
-                    best_dep = deps[i];
-                }
-            }
-            Console.Clear();
-            Console.WriteLine($"Найбольшая средняя зарплата: {best_dep}");
-            for(int i=0;i<n;i++)
-                for(int j=i+1;j<n;j++)
-                {
-                    if(a[i].salary<a[j].salary)
+                    if (s2[4][0] == '1' || s2[4][0] == '2' || s2[4][0] == '3' || s2[4][0] == '4' || s2[4][0] == '5' || s2[4][0] == '6' ||
+                        s2[4][0] == '7' || s2[4][0] == '8' || s2[4][0] == '9' || s2[4][0] == '0')
                     {
-                        Employee t = a[j];
-                        a[j] = a[i];
-                        a[i] = t;
+                        Employee t = new Employee(s2[0], float.Parse(s2[1]), s2[2], s2[3], Int32.Parse(s2[4]));
+                        a.Add(t);
+
+                    }
+                    else
+                    {
+                        Employee t = new Employee(s2[0], float.Parse(s2[1]), s2[2], s2[3], s2[4]);
+                        a.Add(t);
+                        //Console.WriteLine("test");
                     }
                 }
+                if (s2.Length == 4)
+                {
+                    Employee t = new Employee(s2[0], float.Parse(s2[1]), s2[2], s2[3]);
+                    a.Add(t);
+                }
+            }           //Запись
+            List<string> deps = new List<string>();
 
-            for(int i=0;i<n;i++)
+            for (int i = 0; i < n; i++)
             {
-                if (a[i].department == best_dep)
-                    a[i].show();
+                bool exists = false;
+                for (int j = 0; j < deps.Count; j++)
+                    if (deps[j] == a[i].Department)
+                        exists = true;
+                if (!exists)
+                    deps.Add(a[i].Department);
+            }  //уникальная запись департаментов
+
+            float[] sal_dep = new float[deps.Count];
+            int m = deps.Count;
+            for (int i = 0; i < m; i++)
+                sal_dep[i] = 0;
+
+            for (int i = 0; i < m; i++)
+            {
+                int k = 0;
+                for (int j = 0; j < n; j++)
+                {
+                    if (a[j].Department == deps[i])
+                    {
+                        k++;
+                        sal_dep[i] += a[j].Salary;
+                    }
+                }
+                sal_dep[i] /= k;
             }
+            float sal_max = sal_dep[0];
+            int best = 0;
+            for (int i = 0; i < m; i++)
+            {
+                if (sal_dep[i] > sal_max)
+                {
+                    sal_max = sal_dep[i];
+                    best = i;
+                }
+            }
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                    if (a[i].Salary > a[j].Salary)
+                    {
+                        Employee t = new Employee();
+                        t = a[i];
+                        a[i] = a[j];
+                        a[j] = t;
+
+                    }
+            }       //сортировка по зарплате
+
+
+            Console.WriteLine($"Highest average salary: {deps[best]}");
+            for (int i = 0; i < n; i++)
+            {
+                if (a[i].Department == deps[best])
+                {
+                    a[i].Display();
+                }
+            }
+
+            //for (int i = 0; i < deps.Count; i++)
+            //    Console.Write($"{deps[i]} ");
+
+
+
+
+
+
+
+            //for (int i = 0; i < n; i++)        //вывод
+            //   a[i].Display();    
             Console.ReadKey();
-
-
         }
     }
 }
