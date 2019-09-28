@@ -8,3 +8,4 @@ D:\Programms\C#\Labs\Lab3\4\obj\Debug\netcoreapp2.1\4.AssemblyInfoInputs.cache
 D:\Programms\C#\Labs\Lab3\4\obj\Debug\netcoreapp2.1\4.AssemblyInfo.cs
 D:\Programms\C#\Labs\Lab3\4\obj\Debug\netcoreapp2.1\4.dll
 D:\Programms\C#\Labs\Lab3\4\obj\Debug\netcoreapp2.1\4.pdb
+D:\Programms\C#\Labs\Lab3\4\obj\Debug\netcoreapp2.1\4.csprojAssemblyReference.cache

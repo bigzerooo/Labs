@@ -73,6 +73,7 @@ namespace _1
             Console.WriteLine("\nВведенные данные: ");
             for (int i = 0; i < n; i++)
                 Console.WriteLine($"{i+1}. {group[i].Name} {group[i].Age}");
+            Console.ReadKey();
         }
     }
 }

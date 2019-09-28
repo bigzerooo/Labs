@@ -34,6 +34,7 @@ namespace _5
             string b = Console.ReadLine();
             Console.Write("Разница между датами в днях: ");
             Console.Write(DateModifier.Difference(a, b));
+            Console.ReadKey();
         }
     }
 }

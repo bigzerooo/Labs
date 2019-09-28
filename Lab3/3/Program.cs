@@ -57,7 +57,7 @@ namespace _3
     }
     class Family
     {
-        static private int max_capacity=10;
+        static public int max_capacity=10;
         private int n;
         private Person[] Member=new Person[max_capacity];
         public Family()
@@ -81,11 +81,11 @@ namespace _3
         {
             Console.WriteLine($"{Member[i].Name} {Member[i].Age}");
         }
-        public Person getMember(int i)
+        public Person GetMember(int i)
         {
             return Member[i];
         }
-        public Person getOldestMember()
+        public Person GetOldestMember()
         {
             int max = Member[0].Age;
             Person oldest = Member[0];
@@ -106,7 +106,17 @@ namespace _3
         static void Main(string[] args)
         {
             Console.Write("Введите количество персон:");
-            int n =Int32.Parse( Console.ReadLine());
+            int n;
+            while(true)
+            { 
+                 n= Int32.Parse(Console.ReadLine());
+                if (n <= 10)
+                    break;
+                else
+                {
+                    Console.WriteLine($"Максимальное количество членов семьи: {Family.max_capacity}.");
+                }
+            }
             Family fam = new Family();
             for(int i=0;i<n;i++)
             {
@@ -117,12 +127,9 @@ namespace _3
                 a.Age = Convert.ToInt32(Console.ReadLine());
                 fam.AddMember(a);
             }
-            Person oldest = fam.getOldestMember();
-            Console.Write($"Самый старший: {oldest.Name} {oldest.Age}");
-            
-
-
-
+            Person oldest = fam.GetOldestMember();
+            Console.WriteLine($"Самый старший: {oldest.Name} {oldest.Age}");
+            Console.ReadKey();
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-namespace anton2._0
+namespace _6
 {
     class Employee
     {
@@ -90,6 +90,12 @@ namespace anton2._0
                 {
                     Employee t = new Employee(s2[0], float.Parse(s2[1]), s2[2], s2[3]);
                     a.Add(t);
+                }
+                if (s2.Length < 4 || s2.Length > 6)
+                {
+                    Console.WriteLine("Invalid input, try again!");
+                    i--;
+                    continue;
                 }
             }           //Запись
             List<string> deps = new List<string>();

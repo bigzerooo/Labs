@@ -50,10 +50,6 @@ namespace _4
             age = a;
             name = b;
         }
-
-
-
-
     }
     class Program
     {
@@ -72,7 +68,7 @@ namespace _4
                 group[i].Age = Convert.ToInt32(Console.ReadLine());
             }
 
-            for(int i=0;i<n;i++)
+            for(int i=0;i<n;i++)            //Условная сортировка лишь по 1 букве
             {
                 for(int j=i+1;j<n;j++)
                 {                        
@@ -80,9 +76,8 @@ namespace _4
                     {
                         Person t = group[j];
                         group[j] = group[i];
-                        group[i] = t;
-                       
-                    }                   
+                        group[i] = t;                       
+                    }
                 }
             }
 
@@ -91,7 +86,7 @@ namespace _4
                 if(group[i].Age>30)
                  Console.WriteLine($"{group[i].Name} - {group[i].Age}");
             }
-         
+            Console.ReadKey();
         }
     }
 }

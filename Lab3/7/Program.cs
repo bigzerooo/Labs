@@ -2,7 +2,7 @@
 
 namespace _7
 {
-    class Car
+    class Car   
     {
         public string model;
         public double fuel_amount;
