@@ -7,11 +7,14 @@ namespace _5
         static void Main(string[] args)
         {
             int n=int.Parse(Console.ReadLine());
-            List<Box<string>> boxes = new List<Box<string>>();            
+            List<Box<string>> boxes = new List<Box<string>>();   
+            
             for (int i = 0; i < n; i++)
                 boxes.Add(new Box<string>(Console.ReadLine()));
-            Console.WriteLine(boxes[0].GetType().Name);
+            
             Box<string> x = new Box<string>(Console.ReadLine());
+
+
             Console.WriteLine(Count<Box<string>>(boxes,x));
         }
         static int Count<T>(List<T>list,T t ) where T : IComparable 
