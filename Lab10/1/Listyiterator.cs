@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 class ListyIterator<T> : IEnumerator<T>
-{
+{//технически этот класс являеться IEnumerator и IEnumerable одновременно
     List<T> List; //Список итератора
     int index; //индекс итератора
     public ListyIterator()//Создание листа в конструкторе
