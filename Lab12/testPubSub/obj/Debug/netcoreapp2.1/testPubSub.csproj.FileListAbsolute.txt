@@ -1,0 +1,10 @@
+D:\Programms\C#\Labs\Lab12\testPubSub\bin\Debug\netcoreapp2.1\testPubSub.deps.json
+D:\Programms\C#\Labs\Lab12\testPubSub\bin\Debug\netcoreapp2.1\testPubSub.runtimeconfig.json
+D:\Programms\C#\Labs\Lab12\testPubSub\bin\Debug\netcoreapp2.1\testPubSub.runtimeconfig.dev.json
+D:\Programms\C#\Labs\Lab12\testPubSub\bin\Debug\netcoreapp2.1\testPubSub.dll
+D:\Programms\C#\Labs\Lab12\testPubSub\bin\Debug\netcoreapp2.1\testPubSub.pdb
+D:\Programms\C#\Labs\Lab12\testPubSub\obj\Debug\netcoreapp2.1\testPubSub.csproj.CoreCompileInputs.cache
+D:\Programms\C#\Labs\Lab12\testPubSub\obj\Debug\netcoreapp2.1\testPubSub.AssemblyInfoInputs.cache
+D:\Programms\C#\Labs\Lab12\testPubSub\obj\Debug\netcoreapp2.1\testPubSub.AssemblyInfo.cs
+D:\Programms\C#\Labs\Lab12\testPubSub\obj\Debug\netcoreapp2.1\testPubSub.dll
+D:\Programms\C#\Labs\Lab12\testPubSub\obj\Debug\netcoreapp2.1\testPubSub.pdb
