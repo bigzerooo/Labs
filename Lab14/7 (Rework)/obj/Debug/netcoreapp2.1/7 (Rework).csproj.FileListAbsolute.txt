@@ -1,0 +1,10 @@
+D:\Programms\C#\Labs\Lab14\7 (Rework)\bin\Debug\netcoreapp2.1\7 (Rework).deps.json
+D:\Programms\C#\Labs\Lab14\7 (Rework)\bin\Debug\netcoreapp2.1\7 (Rework).runtimeconfig.json
+D:\Programms\C#\Labs\Lab14\7 (Rework)\bin\Debug\netcoreapp2.1\7 (Rework).runtimeconfig.dev.json
+D:\Programms\C#\Labs\Lab14\7 (Rework)\bin\Debug\netcoreapp2.1\7 (Rework).dll
+D:\Programms\C#\Labs\Lab14\7 (Rework)\bin\Debug\netcoreapp2.1\7 (Rework).pdb
+D:\Programms\C#\Labs\Lab14\7 (Rework)\obj\Debug\netcoreapp2.1\7 (Rework).csproj.CoreCompileInputs.cache
+D:\Programms\C#\Labs\Lab14\7 (Rework)\obj\Debug\netcoreapp2.1\7 (Rework).AssemblyInfoInputs.cache
+D:\Programms\C#\Labs\Lab14\7 (Rework)\obj\Debug\netcoreapp2.1\7 (Rework).AssemblyInfo.cs
+D:\Programms\C#\Labs\Lab14\7 (Rework)\obj\Debug\netcoreapp2.1\7 (Rework).dll
+D:\Programms\C#\Labs\Lab14\7 (Rework)\obj\Debug\netcoreapp2.1\7 (Rework).pdb
