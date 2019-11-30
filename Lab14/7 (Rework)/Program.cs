@@ -13,14 +13,11 @@ namespace _7__Rework_
                 {
                     for (int j = i; j < text.Length - 8; j++)
                         if (text.Substring(j, 9) == "</upcase>")
-                        {
-                            
+                        {                            
                             string a = text.Substring(i + 8, j - i - 8);
-                            a = a.ToUpper();
-                            object b;
-                            b = a.Clone();
-                            text =text.Remove(i, j-i+9);                                                        
-                            text.Insert(i,b.ToString());
+                            a = a.ToUpper();                                                        
+                            text =text.Remove(i, j-i+9);
+                            text =text.Insert(i, a);                            
                             break;
                         }
                 }

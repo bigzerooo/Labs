@@ -8,3 +8,4 @@ D:\Programms\C#\Labs\Lab14\7 (Rework)\obj\Debug\netcoreapp2.1\7 (Rework).Assembl
 D:\Programms\C#\Labs\Lab14\7 (Rework)\obj\Debug\netcoreapp2.1\7 (Rework).AssemblyInfo.cs
 D:\Programms\C#\Labs\Lab14\7 (Rework)\obj\Debug\netcoreapp2.1\7 (Rework).dll
 D:\Programms\C#\Labs\Lab14\7 (Rework)\obj\Debug\netcoreapp2.1\7 (Rework).pdb
+D:\Programms\C#\Labs\Lab14\7 (Rework)\obj\Debug\netcoreapp2.1\7 (Rework).csprojAssemblyReference.cache
