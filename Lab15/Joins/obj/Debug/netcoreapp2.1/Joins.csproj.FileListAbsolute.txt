@@ -1,0 +1,10 @@
+D:\Programms\C#\Labs\Lab15\Joins\bin\Debug\netcoreapp2.1\Joins.deps.json
+D:\Programms\C#\Labs\Lab15\Joins\bin\Debug\netcoreapp2.1\Joins.runtimeconfig.json
+D:\Programms\C#\Labs\Lab15\Joins\bin\Debug\netcoreapp2.1\Joins.runtimeconfig.dev.json
+D:\Programms\C#\Labs\Lab15\Joins\bin\Debug\netcoreapp2.1\Joins.dll
+D:\Programms\C#\Labs\Lab15\Joins\bin\Debug\netcoreapp2.1\Joins.pdb
+D:\Programms\C#\Labs\Lab15\Joins\obj\Debug\netcoreapp2.1\Joins.csproj.CoreCompileInputs.cache
+D:\Programms\C#\Labs\Lab15\Joins\obj\Debug\netcoreapp2.1\Joins.AssemblyInfoInputs.cache
+D:\Programms\C#\Labs\Lab15\Joins\obj\Debug\netcoreapp2.1\Joins.AssemblyInfo.cs
+D:\Programms\C#\Labs\Lab15\Joins\obj\Debug\netcoreapp2.1\Joins.dll
+D:\Programms\C#\Labs\Lab15\Joins\obj\Debug\netcoreapp2.1\Joins.pdb
