@@ -2,6 +2,5 @@ D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\01.PrintYourColor\bin\Debug
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\01.PrintYourColor\bin\Debug\01.PrintYourColor.exe
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\01.PrintYourColor\bin\Debug\01.PrintYourColor.pdb
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\01.PrintYourColor\obj\Debug\01.PrintYourColor.csprojAssemblyReference.cache
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\01.PrintYourColor\obj\Debug\01.PrintYourColor.csproj.CoreCompileInputs.cache
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\01.PrintYourColor\obj\Debug\01.PrintYourColor.exe
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\01.PrintYourColor\obj\Debug\01.PrintYourColor.pdb

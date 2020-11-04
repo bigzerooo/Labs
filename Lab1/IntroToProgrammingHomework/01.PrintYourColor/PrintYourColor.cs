@@ -1,9 +1,5 @@
 ﻿using System;
-    class PrintYourColor
-    {
-        static void Main()
-        {
-        Console.WriteLine("Red");
-        Console.ReadKey();
-        }
-    }
+class PrintYourColor
+{
+    static void Main() => Console.WriteLine("Red");    
+}

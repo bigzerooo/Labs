@@ -1,6 +1,5 @@
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem13\bin\Debug\Problem13.exe.config
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem13\bin\Debug\Problem13.exe
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem13\bin\Debug\Problem13.pdb
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem13\obj\Debug\Problem13.csproj.CoreCompileInputs.cache
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem13\obj\Debug\Problem13.exe
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem13\obj\Debug\Problem13.pdb

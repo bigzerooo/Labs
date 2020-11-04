@@ -1,20 +1,10 @@
 ﻿using System;
-
-namespace Problem13
+class Problem13
 {
-    class Problem13
+    static bool IsDivided(int n) => n % 9 == 0 || n % 11 == 0 || n % 13 == 0;
+    static void Main()
     {
-        static void Main()
-        {
-            int n;
-            bool result;
-            n = Convert.ToInt32( Console.ReadLine());
-            if (n % 9 == 0 || n % 11 == 0 || n % 13 == 0)
-                result = true;
-            else
-                result = false;
-            Console.WriteLine(result);
-            Console.ReadKey();
-        }
+        Console.WriteLine(IsDivided(int.Parse(Console.ReadLine())));
+        Console.ReadKey();
     }
 }

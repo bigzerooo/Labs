@@ -1,41 +1,37 @@
 ﻿using System;
-
-
-    class Problem16
+class Problem16
+{
+    static void Main()
     {
-        static void Main()
-        {
-        string n;
-        Console.WriteLine("Type a digit (1-7): ");
-        n=Console.ReadLine();
-        switch (n)
+        string result;
+        switch (Console.ReadLine())
         {
             case "1":
-                Console.WriteLine("Monday");
+                result = "Monday";
                 break;
             case "2":
-                Console.WriteLine("Tuesday");
+                result = "Tuesday";
                 break;
             case "3":
-                Console.WriteLine("Wednesday");
+                result = "Wednesday";
                 break;
             case "4":
-                Console.WriteLine("Thursday");
+                result = "Thursday";
                 break;
             case "5":
-                Console.WriteLine("Friday");
+                result = "Friday";
                 break;
             case "6":
-                Console.WriteLine("Saturday");
+                result = "Saturday";
                 break;
             case "7":
-                Console.WriteLine("Sunday");
+                result = "Sunday";
                 break;
             default:
-                Console.WriteLine("Not valid");
+                result = "Not valid";
                 break;
         }
+        Console.WriteLine(result);
         Console.ReadKey();
-        }
     }
-
+}

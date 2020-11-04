@@ -1,4 +1,3 @@
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem14\obj\Debug\Problem14.csproj.CoreCompileInputs.cache
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem14\bin\Debug\Problem14.exe.config
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem14\bin\Debug\Problem14.exe
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem14\bin\Debug\Problem14.pdb

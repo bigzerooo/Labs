@@ -10,14 +10,6 @@ class Problem5
         uint e = 2147483648;
         int f = -1141583228;
         long g = -1223372036854775808;
-        Console.WriteLine($"{a}");
-        Console.WriteLine($"{b}");
-        Console.WriteLine($"{c}");
-        Console.WriteLine($"{d}");
-        Console.WriteLine($"{e}");
-        Console.WriteLine($"{f}");
-        Console.WriteLine($"{g}");
-        Console.ReadKey();
+        Console.WriteLine($"{a}\n{b}\n{c}\n{d}\n{e}\n{f}\n{g}");        
     }
 }
-

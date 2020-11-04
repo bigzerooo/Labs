@@ -1,5 +1,4 @@
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem6\obj\Debug\Problem6.csprojAssemblyReference.cache
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem6\obj\Debug\Problem6.csproj.CoreCompileInputs.cache
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem6\bin\Debug\Problem6.exe.config
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem6\bin\Debug\Problem6.exe
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem6\bin\Debug\Problem6.pdb

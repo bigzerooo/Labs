@@ -1,18 +1,10 @@
 ﻿using System;
-
-    class Problem12
+class Problem12
+{
+    static bool IsBigAndOdd(int n) => n > 20 && n % 2 == 1;
+    static void Main()
     {
-        static void Main()
-        {
-        int n;
-        bool result;
-        n = int.Parse(Console.ReadLine());
-        if (n > 20 && n % 2 == 1)
-            result = true;
-        else
-            result = false;
-        Console.WriteLine(result);
+        Console.WriteLine(IsBigAndOdd(int.Parse(Console.ReadLine())));
         Console.ReadKey();
-        }
     }
-
+}
