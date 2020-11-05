@@ -31,7 +31,6 @@ class Problem16
                 result = "Not valid";
                 break;
         }
-        Console.WriteLine(result);
-        Console.ReadKey();
+        Console.WriteLine(result);        
     }
 }

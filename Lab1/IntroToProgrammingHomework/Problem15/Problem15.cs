@@ -8,7 +8,6 @@ class Problem15
         float[] a = new float[3];
         for (int i = 0; i < 3; i++)
             a[i] = float.Parse(Console.ReadLine());
-        Console.WriteLine(Sign(a));
-        Console.ReadLine();
+        Console.WriteLine(Sign(a));        
     }
 }

@@ -8,3 +8,4 @@ D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem16_Rework\obj\Debug\
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem16_Rework\obj\Debug\netcoreapp3.1\Problem16_Rework.AssemblyInfo.cs
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem16_Rework\obj\Debug\netcoreapp3.1\Problem16_Rework.dll
 D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem16_Rework\obj\Debug\netcoreapp3.1\Problem16_Rework.pdb
+D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem16_Rework\obj\Debug\netcoreapp3.1\Problem16_Rework.csprojAssemblyReference.cache

@@ -7,7 +7,6 @@ class Problem14
         int[] a = new int[3];
         for (int i = 0; i < 3; i++)
             a[i] = int.Parse(Console.ReadLine());
-        Console.WriteLine(a.Max());
-        Console.ReadKey();
+        Console.WriteLine(a.Max());        
     }
 }
