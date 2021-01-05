@@ -1,7 +1,7 @@
 ﻿using System;
 public class Problem16
 {
-    public static void Main(string[] args) => Console.WriteLine(Console.ReadLine() switch
+    public static void Main() => Console.WriteLine(Console.ReadLine() switch
     {
         "1" => "Monday",
         "2" => "Tuesday",
