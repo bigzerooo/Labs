@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.1" />
+    <PackageReference Include="coverlet.collector" Version="1.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\10\10.csproj" />
+    <ProjectReference Include="..\11\11.csproj" />
+    <ProjectReference Include="..\12\12.csproj" />
+    <ProjectReference Include="..\13\13.csproj" />
+    <ProjectReference Include="..\14\14.csproj" />
+    <ProjectReference Include="..\15\15.csproj" />
+    <ProjectReference Include="..\16\16.csproj" />
+    <ProjectReference Include="..\17\17.csproj" />
+    <ProjectReference Include="..\4\4.csproj" />
+    <ProjectReference Include="..\5\5.csproj" />
+    <ProjectReference Include="..\6\6.csproj" />
+    <ProjectReference Include="..\7\7.csproj" />
+    <ProjectReference Include="..\8\8.csproj" />
+    <ProjectReference Include="..\9\9.csproj" />
+  </ItemGroup>
+
+</Project>

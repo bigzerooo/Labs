@@ -1,5 +1,0 @@
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem7\bin\Debug\Problem7.exe.config
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem7\bin\Debug\Problem7.exe
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem7\bin\Debug\Problem7.pdb
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem7\obj\Debug\Problem7.exe
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem7\obj\Debug\Problem7.pdb

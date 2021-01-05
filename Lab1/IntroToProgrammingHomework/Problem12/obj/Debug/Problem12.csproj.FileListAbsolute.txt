@@ -1,6 +1,0 @@
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem12\bin\Debug\Problem12.exe.config
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem12\bin\Debug\Problem12.exe
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem12\bin\Debug\Problem12.pdb
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem12\obj\Debug\Problem12.exe
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem12\obj\Debug\Problem12.pdb
-D:\Programms\C#\Labs\Lab1\IntroToProgrammingHomework\Problem12\obj\Debug\Problem12.csprojAssemblyReference.cache
